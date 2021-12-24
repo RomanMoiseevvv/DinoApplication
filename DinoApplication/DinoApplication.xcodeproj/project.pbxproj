@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E354C9452775E91800069F9A /* DinoApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354C9442775E91800069F9A /* DinoApplicationApp.swift */; };
+		E354C9472775E91800069F9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354C9462775E91800069F9A /* ContentView.swift */; };
+		E354C9492775E91B00069F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E354C9482775E91B00069F9A /* Assets.xcassets */; };
+		E354C94C2775E91B00069F9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E354C94B2775E91B00069F9A /* Preview Assets.xcassets */; };
+		E354C9532775E94200069F9A /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354C9522775E94200069F9A /* TasksView.swift */; };
+		E354C9572775ECDE00069F9A /* TasksRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354C9562775ECDE00069F9A /* TasksRow.swift */; };
+		E354C9592775F11800069F9A /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354C9582775F11800069F9A /* AddTaskView.swift */; };
+		E354C95B2775F51500069F9A /* SmallAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354C95A2775F51500069F9A /* SmallAddButton.swift */; };
+		E354C95E2776020D00069F9A /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E354C95D2776020D00069F9A /* Realm */; };
+		E354C9602776020D00069F9A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E354C95F2776020D00069F9A /* RealmSwift */; };
+		E354C9622776024600069F9A /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354C9612776024600069F9A /* RealmManager.swift */; };
+		E354C964277603DB00069F9A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E354C963277603DB00069F9A /* Task.swift */; };
+		E354C9662776369500069F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E354C9652776369500069F9A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E354C9412775E91800069F9A /* DinoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E354C9442775E91800069F9A /* DinoApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinoApplicationApp.swift; sourceTree = "<group>"; };
+		E354C9462775E91800069F9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E354C9482775E91B00069F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E354C94B2775E91B00069F9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E354C9522775E94200069F9A /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		E354C9562775ECDE00069F9A /* TasksRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksRow.swift; sourceTree = "<group>"; };
+		E354C9582775F11800069F9A /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		E354C95A2775F51500069F9A /* SmallAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallAddButton.swift; sourceTree = "<group>"; };
+		E354C9612776024600069F9A /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		E354C963277603DB00069F9A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E354C9652776369500069F9A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E354C93E2775E91800069F9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E354C9602776020D00069F9A /* RealmSwift in Frameworks */,
+				E354C95E2776020D00069F9A /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E354C9382775E91800069F9A = {
+			isa = PBXGroup;
+			children = (
+				E354C9432775E91800069F9A /* DinoApplication */,
+				E354C9422775E91800069F9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E354C9422775E91800069F9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E354C9412775E91800069F9A /* DinoApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E354C9432775E91800069F9A /* DinoApplication */ = {
+			isa = PBXGroup;
+			children = (
+				E354C9552775ECA500069F9A /* Components */,
+				E354C9542775E94F00069F9A /* Views */,
+				E354C9442775E91800069F9A /* DinoApplicationApp.swift */,
+				E354C9482775E91B00069F9A /* Assets.xcassets */,
+				E354C94A2775E91B00069F9A /* Preview Content */,
+				E354C9612776024600069F9A /* RealmManager.swift */,
+				E354C963277603DB00069F9A /* Task.swift */,
+				E354C9652776369500069F9A /* LaunchScreen.storyboard */,
+			);
+			path = DinoApplication;
+			sourceTree = "<group>";
+		};
+		E354C94A2775E91B00069F9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E354C94B2775E91B00069F9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E354C9542775E94F00069F9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E354C9462775E91800069F9A /* ContentView.swift */,
+				E354C9522775E94200069F9A /* TasksView.swift */,
+				E354C9582775F11800069F9A /* AddTaskView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E354C9552775ECA500069F9A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E354C9562775ECDE00069F9A /* TasksRow.swift */,
+				E354C95A2775F51500069F9A /* SmallAddButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E354C9402775E91800069F9A /* DinoApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E354C94F2775E91B00069F9A /* Build configuration list for PBXNativeTarget "DinoApplication" */;
+			buildPhases = (
+				E354C93D2775E91800069F9A /* Sources */,
+				E354C93E2775E91800069F9A /* Frameworks */,
+				E354C93F2775E91800069F9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinoApplication;
+			packageProductDependencies = (
+				E354C95D2776020D00069F9A /* Realm */,
+				E354C95F2776020D00069F9A /* RealmSwift */,
+			);
+			productName = DinoApplication;
+			productReference = E354C9412775E91800069F9A /* DinoApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E354C9392775E91800069F9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E354C9402775E91800069F9A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = E354C93C2775E91800069F9A /* Build configuration list for PBXProject "DinoApplication" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E354C9382775E91800069F9A;
+			packageReferences = (
+				E354C95C2776020D00069F9A /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = E354C9422775E91800069F9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E354C9402775E91800069F9A /* DinoApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E354C93F2775E91800069F9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E354C9662776369500069F9A /* LaunchScreen.storyboard in Resources */,
+				E354C94C2775E91B00069F9A /* Preview Assets.xcassets in Resources */,
+				E354C9492775E91B00069F9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E354C93D2775E91800069F9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E354C964277603DB00069F9A /* Task.swift in Sources */,
+				E354C9532775E94200069F9A /* TasksView.swift in Sources */,
+				E354C9592775F11800069F9A /* AddTaskView.swift in Sources */,
+				E354C9472775E91800069F9A /* ContentView.swift in Sources */,
+				E354C95B2775F51500069F9A /* SmallAddButton.swift in Sources */,
+				E354C9452775E91800069F9A /* DinoApplicationApp.swift in Sources */,
+				E354C9622776024600069F9A /* RealmManager.swift in Sources */,
+				E354C9572775ECDE00069F9A /* TasksRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E354C94D2775E91B00069F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E354C94E2775E91B00069F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E354C9502775E91B00069F9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinoApplication/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DinoApplication";
+				PRODUCT_NAME = DinoApplication;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E354C9512775E91B00069F9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DinoApplication/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.DinoApplication";
+				PRODUCT_NAME = DinoApplication;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E354C93C2775E91800069F9A /* Build configuration list for PBXProject "DinoApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E354C94D2775E91B00069F9A /* Debug */,
+				E354C94E2775E91B00069F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E354C94F2775E91B00069F9A /* Build configuration list for PBXNativeTarget "DinoApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E354C9502775E91B00069F9A /* Debug */,
+				E354C9512775E91B00069F9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E354C95C2776020D00069F9A /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E354C95D2776020D00069F9A /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E354C95C2776020D00069F9A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E354C95F2776020D00069F9A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E354C95C2776020D00069F9A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E354C9392775E91800069F9A /* Project object */;
+}
